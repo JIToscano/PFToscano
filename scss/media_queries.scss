@@ -1,0 +1,15 @@
+/* Footer */
+@media only screen and (max-width: 480px) {
+    :is(.marca-footer, .footer ul li a) {
+      font-size: .9em;
+ 
+}
+
+}
+
+/* Carousel  */
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    #carouselExampleDark h2{
+      font-size: 1.5em;
+ 
+}}
