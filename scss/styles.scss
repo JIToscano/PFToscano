@@ -1,9 +1,12 @@
+/* imports */
+
 @import "./variables.scss" ;
 @import "./media_queries.scss";
 
 /* Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/* estilos generales */
 *{      
     margin: 0;
     padding: 0;
@@ -11,36 +14,22 @@
     box-sizing: border-box;
 }
 
-.logoweb {
-    width: 100%;
-    height: 4rem;
-    
-}
-
-.navegador{
-    background-color:$backgroundColor;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style-type: none;
-    ul {
-        list-style: none;
-        display: flex;
-        li a{
-            color: beige;
-            text-decoration: none;
-            display: block;
-            padding: 10px;
-        }
-        }
-    
-}
 .nav-link{
     font-weight: 600 !important;
     &:hover{
         color:$colorTres !important;
     }
 }
+
+/* header */
+.logoweb {
+    width: 100%;
+    height: 4rem;
+    
+}
+
+/*  body */
+
 
 .carousel-item img{
     object-fit: cover;
@@ -49,20 +38,7 @@
     overflow: hidden;
   }
 
-.inicio{
-    padding-top: 80px;
-    margin: 0 auto;
-    position: absolute;
-    text-align: center;
-    align-items: center;
-  
-}
 
-.imglarga{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-}
 .products { 
     padding: 3rem;
     background: #0F2027;  /* fallback for old browsers */
@@ -100,15 +76,6 @@
         height: auto;
     }
 }
-.footer {
-    background-color: $colorTres;
-    color: black;
-}
-
-.mapapie{
-    width: fit-content;
-}
-
 
 .botoncomprar{
     background-color: #3d19b6;
@@ -126,11 +93,6 @@
     
 }
 
-.nav-link{
-    &:hover{
-        color: $colorUno !important;
-    }
-}
 
 .carousel-caption{
     bottom: 10rem !important;
@@ -138,17 +100,6 @@
         font-weight: bold;
         font-size: 2rem;
     }
-}
-
-.botonCompartir {
-    width: min-content;
-    background-color: #3d19b6;
-    color: #fff;
-    padding: 1rem;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    
 }
 
 .comunicate {
@@ -161,5 +112,21 @@
     padding-left: 1rem;
 
 }
+
+
+
+
+/* Footer */
+.footer {
+    background-color: $colorTres;
+    color: black;
+}
+
+
+
+
+
+
+
 
 
